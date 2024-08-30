@@ -10,7 +10,7 @@ const AddEmployee = () => {
   };
 
   return (
-    <div>
+    <div data-testid="AddEmployeeId">
       <div className="border">
         <button onClick={handleButtonClick}>Add Employee</button>
       </div>
@@ -21,7 +21,7 @@ const AddEmployee = () => {
             <span className="close" onClick={() => setShowForm(false)}>
               &times;
             </span>
-            <AddEmployeeForm />
+            <AddEmployeeForm setShowForm={setShowForm} />
           </div>
         </div>
       )}

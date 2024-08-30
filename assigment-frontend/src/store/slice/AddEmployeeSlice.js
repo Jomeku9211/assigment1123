@@ -1,4 +1,3 @@
-// src/yourSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 
 const AddEmployee = createSlice({
