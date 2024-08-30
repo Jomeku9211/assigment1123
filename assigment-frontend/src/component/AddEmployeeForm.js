@@ -95,7 +95,7 @@ const AddEmployeeForm = ({ setShowForm }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} data-testid="AddEmployeeFormId">
       <div className="image-upload">
         {employeeImage ? (
           <img
